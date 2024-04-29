@@ -1,0 +1,75 @@
+.form-container-addvendor {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.input-field {
+    box-shadow: 0 1px 6px #00000029;
+    min-height: 45px;
+    border-radius: 4px;
+}
+
+.input-select {
+    box-shadow: 0 1px 6px #00000029;
+    min-height: 45px;
+    border-radius: 4px;
+}
+
+.inputView{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0;  
+    .inputType,.inputType:focus,.inputType:hover{
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 6px #00000029;
+        border-radius: 5px;
+        min-height: 50px;
+        width: 70%;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        border: none !important;
+        outline: none !important;
+        &::before{
+            border: none !important;
+            content: "";
+        }
+        &::after{
+            border: none !important;
+            content: "";
+        }
+        .css-yjsfm1{
+            overflow: visible !important;
+            visibility: unset;
+        }
+        .css-14lo706{
+            width: 0 !important;
+        }
+        span {
+            opacity: 1;
+            margin-top: 14px;
+            padding: 10px 15px;
+            font-size: 15px;
+            font-family: "MulishRegular";
+            color: #777777;
+        }
+    }
+    
+    .inputLabel{
+        letter-spacing: 0.8px;
+        color: #000000;
+        font-size: 16px;
+        font-family: "MulishBold";
+        margin-top:0;
+        margin-left: 3rem;
+    }
+
+}
+/* ::-webkit-input-placeholder {
+    text-justify: bottom;
+  }
+  :-moz-placeholder {
+    text-justify: bottom;
+  } */

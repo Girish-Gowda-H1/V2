@@ -1,0 +1,17 @@
+.vendor-details-container {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+.vendor-details-first-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.vendor-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

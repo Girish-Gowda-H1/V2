@@ -1,0 +1,87 @@
+.veh-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.veh-details span {
+    /* width: 50%; */
+    display: flex;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.veh-details p {
+    width: 40%;
+    margin: 0;
+}
+
+.ser-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 11% 0% 5%;
+}
+
+.ser-details span {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+.ser-details span:not(:last-child) {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.ser-details p:nth-of-type(odd) {
+    width: 35%;
+    /* font-weight: 900; */
+}
+
+.ser-details p {
+    width: 65%;
+    margin: 0;
+}
+
+.buf-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 11% 0% 5%;
+}
+
+.buf-details span {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.buf-details span > p:nth-of-type(odd) {
+    width: 35%;
+}
+
+.buf-details span > p:nth-of-type(even) {
+    width: 65%;
+}
+
+.buf-details span > div {
+    display: flex;
+    width: calc(65% * 0.5);
+    align-items: center;
+}
+
+.buf-details span > div > p:nth-of-type(odd) {
+    padding-right: 12px;
+}
+
+.buf-details span > div > p:nth-of-type(even) {
+    border-inline-start: solid #7ACCC4;
+    padding-left: 12px;
+    margin: 0;
+}
+
+.close-button span {
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}

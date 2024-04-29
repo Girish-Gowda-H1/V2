@@ -1,0 +1,292 @@
+@import "rsuite/dist/rsuite.css";
+@import "./rsuite-theme.less";
+@import "./ui/themes/fonts.css";
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.mainTitle {
+  letter-spacing: 1.2px;
+  color: #000000;
+  font-family: "MulishBold";
+  font-size: 24px !important;
+}
+
+.newButton {
+  box-shadow: 0px 0px 6px #00000029;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-decoration: none;
+  min-height: 50px;
+  padding: 10px 20px;
+  letter-spacing: 0.8px;
+  color: #000000;
+  font-size: 16px;
+  font-family: "MulishBold";
+  background-color: #fed250;
+}
+
+.limitSelect,
+.limitSelect:active,
+.limitSelect:focus,
+.limitSelect:hover {
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0px 0px 6px #00000029 !important;
+  border-radius: 8px;
+}
+
+.enableStatus {
+  background: #e6f9da !important;
+  border: 1px solid #5dc701 !important;
+  border-radius: 30px !important;
+  opacity: 1;
+  color: #2d9b00 !important;
+  font-size: 12px !important;
+  font-family: "MulishBold";
+  padding: 3px 10px !important;
+  min-width: 100px !important;
+  max-height: 28px !important;
+}
+.disableStatus {
+  background: #eeeeee !important;
+  border: 1px solid #7a7a7a !important;
+  border-radius: 30px !important;
+  opacity: 1;
+  color: #5c5c5c !important;
+  font-size: 12px !important;
+  font-family: "MulishBold";
+  padding: 3px 8px !important;
+  min-width: 100px !important;
+  max-height: 28px !important;
+}
+
+.draftStatus {
+  background: #ece3f1 !important;
+  border: 1px solid #4b3d76 !important;
+  border-radius: 30px !important;
+  opacity: 1;
+  color: #4b3d76 !important;
+  font-size: 12px !important;
+  font-family: "MulishBold";
+  padding: 3px 8px !important;
+  min-width: 100px !important;
+  max-height: 28px !important;
+}
+
+.fileView {
+  padding: 5px;
+  box-shadow: 0px 0px 2px #00000080;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modal-title {
+  letter-spacing: 1.2px;
+  color: #222222;
+  font-family: "MulishBold";
+  font-size: 24px;
+}
+.borderRadius .css-zydck5-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px !important;
+}
+.switchView .css-i274bk-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #4b3d76;
+}
+.switchView
+  .css-i274bk-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked.css-i274bk-MuiButtonBase-root-MuiSwitch-switchBase {
+  left: 9px !important;
+  top: -0.5px !important;
+}
+.switchView .css-julti5-MuiSwitch-root {
+  padding: 6.5px 8px !important;
+  width: 70px !important;
+  /* height: 45px !important; */
+  border-radius: 12px !important;
+}
+
+.switchView .css-1phjay2-MuiSwitch-track {
+  border-radius: 12px !important;
+}
+
+.switchView .css-1phjay2-MuiSwitch-track {
+  background-color: #fff !important;
+}
+
+.switchView .css-i274bk-MuiButtonBase-root-MuiSwitch-switchBase {
+  left: 4px !important;
+}
+.amountView #REIMBURSEMENT {
+  padding-left: 35px !important;
+}
+
+.amountView {
+  margin-left: 20px;
+}
+
+.reImbursementView {
+  padding: 23px;
+  width: 100%;
+  background: #ece3f1;
+  display: flex;
+  min-height: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.borderRadius
+  .css-zydck5-MuiInputBase-root-MuiOutlinedInput-root
+  .css-ucdmv-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 15px 0px 15px !important;
+}
+.bottomView {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  .addService {
+    letter-spacing: 0.9px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font-family: "MulishBold";
+    font-size: 18px;
+    background: #eeeeee;
+    box-shadow: 0px 0px 4px #00000029;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 7px 20px;
+  }
+}
+.fileView svg {
+  width: 20px;
+  height: 20px;
+}
+.status {
+  font-size: 12px !important;
+  font-family: "MulishBold";
+  padding: 3px 8px !important;
+  min-width: 100px !important;
+  max-height: 28px !important;
+}
+.filterButton,
+.filterButton:hover {
+  font-size: 12px;
+  box-shadow: 0px 0px 6px #00000029 !important;
+  border: 1px solid #e0e0e0 !important;
+  letter-spacing: 0.6px;
+  margin: 15px 15px 20px 0;
+  height: 40px;
+  min-width: 95px;
+  padding: 0px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.action-subtitle {
+  display: flex;
+  padding: 50px 0px 22px 0px;
+  font-size: 18px;
+  font-family: "MulishExtraBold";
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fed250;
+}
+
+#map .ant-card-body > div > div {
+  left: 0;
+  top: 0;
+}
+
+.simplebar-content .MuiList-root .Mui-selected {
+  background-color: #ebe3f1 !important;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected {
+  background-color: #4b3d76 !important;
+}
+
+.MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight {
+  background-color: #ece3f1 !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #e0e0e0;
+}
+
+.MuiSwitch-track {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+
+.rs-picker-toggle-value,
+.rs-picker-toggle-placeholder {
+  font-size: 12px;
+  font-family: "MulishExtraBold" !important;
+  font-weight: 700;
+}
+
+.rs-picker-toggle.rs-btn.rs-btn-default.rs-btn-lg {
+  padding: 6px 42px 6px 15px;
+}
+
+.rejectionView {
+  margin-block: 30px;
+  box-shadow: inset 0px 0px 6px #00000029;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 20px;
+  background: "#ffffff";
+  padding: 39px 40px;
+  font-size: 16px;
+  color: #222222;
+  font-family: "MulishRegular";
+  margin-bottom: 50px;
+}
+
+.rejectText {
+  font-family: "MulishBold";
+  font-size: 24px;
+  color: #222222;
+}
+
+.closeBtn,
+.closeBtn:hover {
+  background: #307e98;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #00000029;
+  padding: 18px 61px;
+  font-family: "MulishBold";
+  font-size: 20px;
+  text-decoration: none;
+}
+.vendorName {
+  font-size: 12px;
+  color: rgb(255, 44, 44);
+  margin-top: 5px;
+}
+
+#service_date .rs-picker-toggle-value,
+#service_date .rs-picker-toggle-placeholder {
+  font-size: 0.875rem;
+  font-family: "MulishRegular" !important;
+  font-weight: 400;
+  color: #212121 !important;
+  text-transform: uppercase;
+}
+
+#service_date .MuiStack-root {
+  box-shadow: 0 1px 6px #00000029;
+}
+
+#inputView .MuiOutlinedInput-root {
+  height: 45px;
+  padding: 0px 65px 0px 9px;
+}
